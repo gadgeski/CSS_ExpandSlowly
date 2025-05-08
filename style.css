@@ -1,4 +1,17 @@
 @charset "UTF-8";
+
+body {
+  padding: 1rem;
+}
+
+img {
+  display: block;
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
 /* ホバーで拡大 */
 .zoom {
   width: 400px;
@@ -35,4 +48,9 @@
   opacity: 0;
   scale: 1;
   transition: opacity 1s, scale 4s;
+}
+
+.gallery-item.active {
+  opacity: 1;
+  scale: 1.3;
 }
